@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <Icon name="Heart" className="h-8 w-8 text-green-500 mr-3" />
+              <Icon name="Sword" className="h-8 w-8 text-green-500 mr-3" />
               <span className="font-montserrat font-bold text-xl">
                 ГражданИнициатива
               </span>
@@ -42,6 +42,12 @@ const Footer = () => {
               >
                 <Icon name="Youtube" className="h-6 w-6" />
               </a>
+            </div>
+            {/* Декоративный элемент с терновым венцом */}
+            <div className="mt-4 flex items-center space-x-2 text-gray-600">
+              <Icon name="Crown" className="h-4 w-4" />
+              <div className="flex-1 h-px bg-gray-700"></div>
+              <Icon name="Sword" className="h-4 w-4" />
             </div>
           </div>
 

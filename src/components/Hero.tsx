@@ -33,7 +33,7 @@ const Hero = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <Icon
-                    name="Users"
+                    name="Sword"
                     className="h-12 w-12 text-green-500 mx-auto mb-3"
                   />
                   <div className="font-bold text-2xl text-gray-900">2,500+</div>
@@ -41,7 +41,7 @@ const Hero = () => {
                 </div>
                 <div className="text-center">
                   <Icon
-                    name="Heart"
+                    name="Crown"
                     className="h-12 w-12 text-blue-500 mx-auto mb-3"
                   />
                   <div className="font-bold text-2xl text-gray-900">150+</div>
@@ -49,7 +49,7 @@ const Hero = () => {
                 </div>
                 <div className="text-center">
                   <Icon
-                    name="Calendar"
+                    name="Shield"
                     className="h-12 w-12 text-orange-500 mx-auto mb-3"
                   />
                   <div className="font-bold text-2xl text-gray-900">300+</div>
@@ -57,11 +57,20 @@ const Hero = () => {
                 </div>
                 <div className="text-center">
                   <Icon
-                    name="Award"
+                    name="Cross"
                     className="h-12 w-12 text-purple-500 mx-auto mb-3"
                   />
                   <div className="font-bold text-2xl text-gray-900">5</div>
                   <div className="text-gray-600">Лет работы</div>
+                </div>
+              </div>
+              {/* Декоративный терновый венец */}
+              <div className="absolute -top-4 -right-4 text-amber-400 opacity-20">
+                <div className="relative">
+                  <Icon name="Crown" className="h-16 w-16 rotate-12" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-8 h-8 border-2 border-amber-400 rounded-full border-dashed"></div>
+                  </div>
                 </div>
               </div>
             </div>

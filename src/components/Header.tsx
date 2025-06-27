@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <Icon name="Heart" className="h-8 w-8 text-green-500 mr-3" />
+              <Icon name="Sword" className="h-8 w-8 text-green-500 mr-3" />
               <span className="font-montserrat font-bold text-xl text-gray-900">
                 ГражданИнициатива
               </span>

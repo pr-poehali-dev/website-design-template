@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 const Services = () => {
   const services = [
     {
-      icon: "HandHeart",
+      icon: "Sword",
       title: "Гуманитарная помощь",
       description:
         "Сбор и распределение помощи нуждающимся семьям, организация волонтёрских акций и поддержка социально уязвимых групп.",
@@ -11,7 +11,7 @@ const Services = () => {
       bgColor: "bg-green-50",
     },
     {
-      icon: "GraduationCap",
+      icon: "Shield",
       title: "Образовательные программы",
       description:
         "Проведение семинаров, тренингов и мастер-классов для развития гражданского общества и повышения правовой грамотности.",
@@ -19,7 +19,7 @@ const Services = () => {
       bgColor: "bg-blue-50",
     },
     {
-      icon: "Sparkles",
+      icon: "Crown",
       title: "Молодёжные инициативы",
       description:
         "Поддержка молодёжных проектов, организация форумов и создание платформ для развития лидерских качеств.",
@@ -27,7 +27,7 @@ const Services = () => {
       bgColor: "bg-purple-50",
     },
     {
-      icon: "Calendar",
+      icon: "Cross",
       title: "Общественные мероприятия",
       description:
         "Организация культурных и просветительских событий, круглых столов и общественных обсуждений актуальных вопросов.",
@@ -71,6 +71,14 @@ const Services = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Декоративные элементы с терновым венцом */}
+        <div className="absolute top-10 left-10 text-green-100 opacity-30">
+          <Icon name="Crown" className="h-12 w-12 rotate-45" />
+        </div>
+        <div className="absolute bottom-10 right-10 text-blue-100 opacity-30">
+          <Icon name="Sword" className="h-12 w-12 -rotate-12" />
         </div>
       </div>
     </section>
